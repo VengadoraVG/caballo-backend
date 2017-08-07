@@ -1,0 +1,32 @@
+{
+  "name": "caballo-backend",
+  "version": "0.0.0",
+  "description": "backend for Caballo: a tool for managin' a game development life cycle for llaneros solitarios",
+  "main": "index.js",
+  "scripts": {
+    "start": "babel-node app.js --presets node6-es6",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/VengadoraVG/caballo-backend.git"
+  },
+  "keywords": [
+    "caballo",
+    "backend",
+    "management",
+    "llanero",
+    "solitario"
+  ],
+  "author": "VG",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/VengadoraVG/caballo-backend/issues"
+  },
+  "homepage": "https://github.com/VengadoraVG/caballo-backend#readme",
+  "dependencies": {
+    "express": "^4.15.3",
+    "mysql2": "^1.4.0",
+    "sequelize": "^4.4.2"
+  }
+}
